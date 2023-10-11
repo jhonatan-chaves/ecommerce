@@ -1,0 +1,43 @@
+
+.nave{
+  background: wheat;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+.divBusca{
+  height: 400px;
+ background: aqua;
+ display: flex;
+  
+}
+.search-text{
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  //padding-bottom: 40px;
+}
+.search-btn{
+  height: 100px;
+  background: red;
+  
+}
+.lupa{
+  background: red;
+  width: 45px;
+  height: 45px;
+  border-radius: 0 5px  5px 0;
+  cursor: pointer;
+
+  background-image: url("../../assets/img/loupe-white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.0em;
+  padding-left: 1.3em;
+  
+}
+.dis-blok{
+  display: block;
+}
+.div-esquerda{
+  display: flex;
+}
